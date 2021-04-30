@@ -1,0 +1,49 @@
+{
+  "name": "norout",
+  "version": "1.0.0",
+  "description": "Leraning",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "saba",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.2",
+    "express-rate-limit": "^5.2.6",
+    "extension": "^0.2.2",
+    "get": "^1.4.0",
+    "helmet": "^4.5.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.5.0",
+    "package-lock.json": "^1.0.0",
+    "prettier": "^2.2.1",
+    "pug": "^3.0.2",
+    "slugify": "^1.5.0",
+    "update": "^0.7.4",
+    "validator": "^13.5.2",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.23.1",
+    "gyp": "^0.5.0",
+    "mongodb": "^3.6.5",
+    "ndb": "^1.1.5"
+  }
+}
